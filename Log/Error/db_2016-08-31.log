@@ -1,0 +1,6 @@
+'他' 附近有语法错误。2016-08-31 14:12:27: insert into yx_stutest (StuNO,PaperImage,Remark,Score,TestID) values('啊','阿飞','废物',24他,额外) Error: '他' 附近有语法错误。
+
+不能将值 NULL 插入列 'ID'，表 'yuanxin.dbo.yx_stutest'；列不允许有空值。INSERT 失败。
+语句已终止。2016-08-31 14:13:11: insert into yx_stutest (StuNO,PaperImage,Remark,Score,TestID) values('啊','阿飞','废物',22,11) Error: 不能将值 NULL 插入列 'ID'，表 'yuanxin.dbo.yx_stutest'；列不允许有空值。INSERT 失败。
+语句已终止。
+

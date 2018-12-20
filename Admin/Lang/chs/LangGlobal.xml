@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!DOCTYPE langs [
+<!ELEMENT langs (#PCDATA | lang)*>
+<!ELEMENT lang (#PCDATA )>
+]>
+
+<langs>
+  <lang name="LANG_operate">操作</lang>
+
+  <lang name="LANG_list">列表</lang>
+  <lang name="LANG_view">查看</lang>
+  <lang name="LANG_add">添加</lang>
+  <lang name="LANG_edit">编辑</lang>
+  <lang name="LANG_modify">修改</lang>
+  <lang name="LANG_delete">删除</lang>
+  <lang name="LANG_search">搜索</lang>
+  <lang name="LANG_auditing">审核</lang>
+  <lang name="LANG_disable">禁止</lang>
+  <lang name="LANG_deny">注销</lang>
+  <lang name="LANG_logout">退出</lang>
+  <lang name="LANG_revert">恢复</lang>
+  <lang name="LANG_chgpass">修改密码</lang>
+  <lang name="LANG_fav">收藏</lang>
+  <lang name="LANG_about">关于</lang>
+  <lang name="LANG_copy">拷贝</lang>
+  <lang name="LANG_submit">提交</lang>
+  <lang name="LANG_cancel">取消</lang>
+  <lang name="LANG_htmledit">HTML编辑</lang>
+
+  <lang name="LANG_error">错误</lang>
+  <lang name="LANG_error_notice">错误提示</lang>
+  <lang name="LANG_infomation">信息提示</lang>
+  <lang name="LANG_infomation_notice">错误提示</lang>
+  <lang name="LANG_error_because">产生错误的原因是</lang>
+  <lang name="LANG_error_continue">点击继续</lang>
+
+  <lang name="LANG_operate_succ">操作成功</lang>
+  <lang name="LANG_operate_failed">操作失败</lang>
+
+  <lang name="LANG_keyword">关键字：</lang>
+  <lang name="LANG_adv_search">高级搜索</lang>
+  <lang name="LANG_identity">编号</lang>
+  <lang name="LANG_selected">选定</lang>
+  <lang name="LANG_this_item">此条内容</lang>
+
+  <lang name="LANG_detail_info">详细信息</lang>
+  <lang name="LANG_return">返回</lang>
+  <lang name="LANG_open">打开</lang>
+  <lang name="LANG_already_upload">文件已经上传：</lang>
+  <lang name="LANG_not_upload">未上传</lang>
+  <lang name="LANG_already_upload_replace">文件已经上传，不替换请置空。</lang>
+
+  <lang name="LANG_add_item_succ">添加条目成功</lang>
+  <lang name="LANG_add_item_failed">添加条目失败</lang>
+  <lang name="LANG_edit_item_succ">修改条目成功</lang>
+  <lang name="LANG_edit_item_failed">修改条目失败</lang>
+  <lang name="LANG_delete_item_succ">删除条目成功</lang>
+  <lang name="LANG_delete_item_failed">删除条目失败</lang>
+  <lang name="LANG_auditing_succ">审核条目成功</lang>
+  <lang name="LANG_auditing_failed">审核条目失败</lang>
+  <lang name="LANG_disable_succ">禁止条目成功</lang>
+  <lang name="LANG_disable_failed">禁止条目失败</lang>
+  <lang name="LANG_item_notexists">选择的条目不存在. 可能被其它用户删除</lang>
+
+  <lang name="LANG_nopriv">您未登录或无足够权限进行此操作</lang>
+  <lang name="LANG_notlogin">您尚未登录, 不能进行此操作.</lang>
+
+  <lang name="LANG_operator">操作员：</lang>
+  <lang name="LANG_nologin_role">未登录</lang>
+
+  <lang name="LANG_select">选</lang>
+  <lang name="LANG_detail">详</lang>
+  <lang name="LANG_disable">禁止</lang>
+  <lang name="LANG_enable">允许</lang>
+  <lang name="LANG_yes">是</lang>
+  <lang name="LANG_no">否</lang>
+  <lang name="LANG_flag_auditing">已审核</lang>
+  <lang name="LANG_flag_unauditing">未审核</lang>
+  <lang name="LANG_flag_disable">已禁用</lang>
+  <lang name="LANG_flag_enable">已启用</lang>
+
+  <lang name="LANG_js_notnull">不能为空</lang>
+  <lang name="LANG_js_isnumeric">只能输入数字</lang>
+  <lang name="LANG_js_isdouble">必须输入整数或小数</lang>
+  <lang name="LANG_js_email">不正确的EMAIL地址格式</lang>
+  <lang name="LANG_js_telephone">不正确的固定电话地址格式</lang>
+  <lang name="LANG_js_mobile">不正确的移动电话地址格式</lang>
+  
+  <lang name="LANG_js_date">不正确的日期格式</lang>
+  <lang name="LANG_js_nosel">请先选择要操作的条目</lang>
+  <lang name="LANG_js_opt_confirm">是否确认对选定项目进行此操作?</lang>
+  <lang name="LANG_js_logout_confirm">是否确认退出系统?</lang>
+  <lang name="LANG_js_delete_confirm">是否删除此项目? 此操作不可恢复!</lang>
+  <lang name="LANG_js_cancel_confirm">是否注销此项目?</lang>
+  <lang name="LANG_js_minlength">最少字符数为: </lang>
+  <lang name="LANG_js_maxlength">最大字符数为: </lang>
+  <lang name="LANG_js_minvalue">最小值不能小于: </lang>
+  <lang name="LANG_js_maxvalue">最大值不能超过: </lang>
+
+  <lang name="LANG_empty_parameter">请输入所有必选参数</lang>
+
+  <lang name="LANG_system_error">系统故障</lang>
+  <lang name="LANG_db_error">操作失败, 数据库故障</lang>
+
+  <lang name="LANG_unauth_operate">未经授权的操作</lang>
+
+  <lang name="LANG_position">当前位置：</lang>
+  <lang name="LANG_startpage">桌面</lang>
+
+  <lang name="LANG_showall">取消搜索，显示全部</lang>
+  <lang name="LANG_powered">
+	<![CDATA[]]>
+  </lang>
+
+  <lang name="LANG_err_notnull">不能为空</lang>
+  <lang name="LANG_err_min_length">不能小于 %d 字节</lang>
+  <lang name="LANG_err_max_length">不能大于 %d 字节</lang>
+  <lang name="LANG_err_fileformat">上传了无效的文件格式, 只能上传: %s 类型的文件</lang>
+  <lang name="LANG_err_filesize_max">只能上传小于 %d 字节大小的文件</lang>
+  <lang name="LANG_err_filesize_min">只能上传大于 %d 字节大小的文件</lang>
+  <lang name="LANG_err_invalidchar">输入了不允许的字符。只能为: %s 字符</lang>
+  <lang name="LANG_err_notuniqid">已经存在，请重新输入。</lang>
+  <lang name="LANG_err_file_access">文件访问错误, 请检查是否有权限访问相关文件或是否有足够空间</lang>
+
+  <lang name="LANG_list_perpage">每页显示</lang>
+  <lang name="LANG_list_all">全部</lang>
+
+  <lang name="LANG_closeplugin">请关闭所有窗口拦截软件和广告拦截软件后再运行本后台.</lang>
+</langs>

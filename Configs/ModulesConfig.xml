@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Config>
+<Controllor Name="Admin" Url="admincp.aspx" DllName="" Namespace="HYSoft.GMS.Modules.Admin">
+  <Module Mod="top" ClassName="HYSoft.GMS.Modules.Admin.TopModule"/>
+  <Module Mod="menu" ClassName="HYSoft.GMS.Modules.Admin.MenuModule"/>
+  <Module Mod="index" ClassName="HYSoft.GMS.Modules.Admin.IndexModule"/>
+	<Module Mod="desktop" ClassName="HYSoft.GMS.Modules.Admin.DesktopModule"/>
+  <Module Mod="user" ClassName="HYSoft.GMS.Modules.Admin.UserModule"/>
+  <Module Mod="login" ClassName="HYSoft.GMS.Modules.Admin.LoginModule"/>
+  <Module Mod="chargerecord" ClassName="HYSoft.GMS.Modules.Admin.ChargeRecordModule"/>
+  <Module Mod="knowledgebase" ClassName="HYSoft.GMS.Modules.Admin.KnowledgeBaseModule"/>
+  <Module Mod="stucomment" ClassName="HYSoft.GMS.Modules.Admin.StuCommentModule"/>
+  <Module Mod="stuinfo" ClassName="HYSoft.GMS.Modules.Admin.StuInfoModule"/>
+  <Module Mod="stuknowledge" ClassName="HYSoft.GMS.Modules.Admin.StuKnowledgeModule"/>
+  <Module Mod="teachinfo" ClassName="HYSoft.GMS.Modules.Admin.TeachInfoModule"/>
+  <Module Mod="pub" ClassName="HYSoft.GMS.Modules.Admin.PubModule"/>
+	<Module Mod="test" ClassName="HYSoft.GMS.Modules.Admin.TestModule"/>
+	<Module Mod="stutest" ClassName="HYSoft.GMS.Modules.Admin.StuTestModule"/>
+</Controllor>
+
+</Config>

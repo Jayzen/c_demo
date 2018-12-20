@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>新元教育学习查询系统</title>
+  <meta name="KeyWords" content="">
+  <meta name="Description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="format-detection" content="telephone=no">
+  <!-- artDialog-6.0 -->
+  <link href="js/artDialog6.0/ui-dialog.css" rel="stylesheet" type="text/css"/>
+  
+    <link href="css/mobiscroll.frame.css" rel="stylesheet" type="text/css" />
+	<link href="css/mobiscroll.scroller.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+  <script src="js/jquery-2.1.3.min.js"></script>
+	<script src="js/artDialog6.0/dialog-min.js"></script>
+   <script src="js/mobiscroll.core.js"></script>
+    <script src="js/mobiscroll.frame.js"></script>
+    <script src="js/mobiscroll.scroller.js"></script>
+
+    <script src="js/mobiscroll.util.datetime.js"></script>
+    <script src="js/mobiscroll.datetimebase.js"></script>
+    <script src="js/mobiscroll.datetime.js"></script>
+
+    <script src="js/i18n/mobiscroll.i18n.zh.js"></script>
+
+	<script>
+	 $(function () {
+		$('#dateBox').mobiscroll().date({
+			theme: $.mobiscroll.defaults.theme, 
+			mode: "scroller", 
+			display: "bottom",
+			lang: "zh", 
+			minDate: new Date(2016, 6, 1),
+            maxDate: new Date(2020, 12, 30)
+		});
+		$(".month li").on("click", function(){
+			$(".month li").removeClass("on");
+			$(this).addClass("on");
+		});
+	});
+	</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div class="logo"><img src="images/logo.png"/></div>
+  </div>
+  <form>
+    <div class="childSelect">
+      <span>可查询学生</span>
+      <ul>
+        <li class="on"><i></i><span>王诺诺</span></li>
+        <li><i></i><span>张晋阳</span></li>
+        <li><i></i><span>欧阳鹏飞</span></li>
+        <li><i></i><span>喜来宝</span></li>
+      </ul>
+    </div>   
+    <ul class="orderList date-inquire">
+      <li><span>查询日期</span><p><input type="text" id="dateBox" value="" placeholder="点击输入日期" /></p></li>
+      <li class="action"><a class="submitBtn" href='#' title="按日期查询" onClick="cueTrigger(elem);return false;">按日期查询</a></li>
+    </ul>
+    <div class="period-inquire">
+      <div class="month">
+        <ul>
+          <li class="on"><span>本月</span></li>
+          <li><span>4月份</span></li>
+          <li><span>3月份</span></li>
+          <li><span>2月份</span></li>
+        </ul>
+      </div>
+      <div class="action"><a class="submitBtn" href="inquire_result.html" title="按月查询">按月查询</a></div>
+    </div>
+  </form>
+  <div class="floor">Copyright © 2016 KIRING SCHOOL All Rights Reserved.</div>
+</div>
+</body>
+</html>

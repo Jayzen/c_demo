@@ -1,0 +1,78 @@
+@charset "utf-8";/* CSS Document author: Rivers_01*/
+
+body { height:auto; min-height:100%; position:relative; background:#efeff0;}
+.wrap { padding:0 0 40px; min-width:300px; margin:0 auto; background:#efeff0;}
+
+.header { width:100%; padding-top:25.6%; position:relative; background:url(../images/bg_head_2.jpg) no-repeat center top; background-size:cover;}
+.header .logo { width:282px; height:63px; position:absolute; top:50%; left:50%; margin-top:-32px; margin-left:-141px;}
+.header .logo img { width:282px; height:63px;}
+
+.studentCard { width:100%; margin-top:10.5%; position:absolute; left:0; top:0;}
+.studentCard .info { padding-left:12px;}
+.studentCard .info .child span { font-size:18px; height:24px; line-height:24px; padding-right:10px; color:#fff; text-shadow:0 1px 2px rgba(0,0,0,0.6);}
+.studentCard .info .school span { font-size:14px; height:20px; line-height:20px; padding-right:10px; color:#fff; text-shadow:0 1px 2px rgba(0,0,0,0.6);}
+.studentCard .action { padding-right:12px; width:64px;}
+.studentCard .action a { display:block; color:#fff; background:#57b883; width:64px; height:24px; line-height:26px; text-align:center; font-size:14px; border-radius:4px; overflow:hidden;}
+.studentCard .action a:active { background:#49aa75;}
+
+.floor { width:100%; height:30px; line-height:24px; font-size:10px; text-align:center; color:#ccc; font-weight:100; position:absolute; bottom:0;}
+
+.forget { width:100%; line-height:20px; margin-top:10px;}
+.forget a { font-size:13px; padding:0 4px; color:#999;}
+.forget a:active { color:#57b883; text-decoration:underline;}
+.forget a:last-child { float:right;}
+
+.other_info { height:50px; border-bottom:1px solid #ddd; border-top:1px solid #ccc; background:#fff; margin-bottom:4px;}
+.other_info li { position:relative; height:30px; margin-top:10px; border-left:1px solid #dfdfdf; text-align:center;}
+.other_info li:first-child { border-left:none; padding:0 20px;}
+.other_info li p { display:inline-block;}
+.other_info li em { font-size:13px; color:#ccc; display:block; height:12px; line-height:12px; margin-bottom:4px; font-style:normal; text-align:left; position:relative; top:-1px;}
+.other_info li span { font-size:15px; display:block; height:15px; line-height:15px; text-align:left;}
+.other_info li span.on { color:#5ea67f;}
+.other_info li span.off { color:#C00003;}
+
+.result dt { height:36px; line-height:36px; font-size:15px; color:#888; padding:0 12px;}
+.result dd { min-height:44px; border-bottom:1px solid #ddd; border-top:1px solid #ddd; background:#fff; overflow:hidden; margin-bottom:4px; padding:0 12px;}
+.result dd div { line-height:20px; padding:10px 0;}
+.result dd .title { padding-right:20px;}
+.result dd .title span { display:block; padding:3px 0 1px;}
+.result dd .item { color:#888888;}
+.result dd .item p { padding:3px 0 1px;}
+.result dd.weakness .cruces,.result dd.gotNew .cruces { padding-bottom:0px;}
+.result dd .cruces span { display:inline-block; height:22px; padding:0 5px; font-size:14px; line-height:24px; border-radius:4px; cursor:pointer; margin:0 5px 5px 0; white-space:nowrap;  text-overflow:ellipsis; -o-text-overflow:ellipsis; overflow:hidden; max-width:156px; word-wrap:normal;/* ie9-8重要 */}
+.result dd.weakness .cruces span { color:#dc3c3c; border:1px solid #ffb8b8; background:#faf7f7;}
+.result dd.weakness .cruces span:active { border:1px solid #ff9f9f; background:#faf0f0;}
+.result dd.gotNew .cruces span { color:#249356; border:1px solid #91c9aa; background:#f5faf7;}
+.result dd.gotNew .cruces span:active { border:1px solid #63c890; background:#edfaf2;}
+
+/*知识点详情*/
+.crucesDetail { max-width:250px;}
+.crucesDetail h2 { font-size:16px; line-height:20px; font-weight:400;}
+.crucesDetail p { font-size:15px; color:#666; line-height:22px; padding:3px 0 5px;}
+.crucesDetail .intor h2 { color:#5ea67f;}
+.crucesDetail .opinion h2 { color:#e99215;}
+.crucesDetail .opinion { border-top:1px dotted #ddd; padding-top:10px;}
+
+/*选择孩子*/
+.childSelect { padding:7px 12px; margin-bottom:4px; border-top:1px solid #ccc; border-bottom:1px solid #ddd; min-height:30px; background:#fff;}
+.childSelect span { padding-right:20px; line-height:30px;}
+.childSelect ul li { display:inline-block; padding:0 10px 0 16px; position:relative;}
+.childSelect ul li i { width:12px; height:12px; background-position:0 -48px; border-radius:50%; background-color:#eee; left:0; top:8px;}
+.childSelect ul li.on i { background-color:#59a87d;}
+.childSelect ul li span { line-height:30px; padding:0;}
+
+/*选择周期*/
+.period-inquire { border-bottom:1px solid #ddd; border-top:1px solid #ddd; background:#fff; margin-bottom:4px;}
+.period-inquire .month, .period-inquire .week { border-bottom:1px solid #eaeaea; height:44px; padding:0 12px; position:relative;}
+.period-inquire .action { height:auto; padding:10px 12px;}
+.period-inquire ul { position:relative; z-index:1;}
+.period-inquire ul li { padding:11px 0 9px; text-align:center; height:24px; cursor:pointer;}
+.period-inquire ul li span { display:inline-block; text-align:center; height:24px; width:48px; line-height:26px; overflow:hidden;}
+.period-inquire .position { height:24px; width:48px; border-radius:4px; background-color:#57b883; position:absolute; top:10px;}
+.period-inquire ul li.on span { color:#fff; border-radius:4px; background-color:#57b883;}
+.period-inquire ul li.disabled span { color:#ccc;}
+
+/* Webkit内核兼容CSS */
+@media screen and (-webkit-min-device-pixel-ratio:0) {  
+ .orderList li p input { line-height:20px;}
+}

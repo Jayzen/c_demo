@@ -1,0 +1,2 @@
+列名 'AddTimeEnd' 无效。2016-06-19 10:12:31: select count(*) as RsltCount from yx_stuknowledge where 1=1 and [AddTime] >= '2016-06-10' and [AddTimeEnd] <= '2016-06-16' Error: 列名 'AddTimeEnd' 无效。
+

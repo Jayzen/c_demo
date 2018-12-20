@@ -1,0 +1,12 @@
+2016-06-18 14:33:39 危险SQL: delete 来自:127.0.0.1
+	 连接IP:127.0.0.1 URL=/admincp.aspx?mod=stuknowledge&act=delete&refer=/admincp.aspx%3Fmod%3Dstuknowledge%26act%3D&
+	 变量集合:mod=stuknowledge&act=delete&refer=%2fadmincp.aspx%3fmod%3dstuknowledge%26act%3d&
+
+2016-06-18 16:08:20 危险SQL: delete 来自:127.0.0.1
+	 连接IP:127.0.0.1 URL=/admincp.aspx?mod=stuinfo&act=delete&refer=/admincp.aspx%3Fmod%3Dstuinfo&
+	 变量集合:mod=stuinfo&act=delete&refer=%2fadmincp.aspx%3fmod%3dstuinfo&
+
+2016-06-18 17:11:37 危险SQL: /admincp.aspx?inSearch=1&mod=stuinfo&StuName=&StuAge=&StuGrade=&StuClass=&StuSex=&TeacherID=&ClassState=&ChargeState=&Education=&School=&Mobile=&Address=&Remark=&Submit=%CB%D1%CB%F7 来自:127.0.0.1
+	 连接IP:127.0.0.1 URL=/admincp.aspx?mod=stuinfo&act=modify&ids=4&refer=/admincp.aspx%3FinSearch%3D1%26mod%3Dstuinfo%26StuName%3D%26StuAge%3D%26StuGrade%3D%26StuClass%3D%26StuSex%3D%26TeacherID%3D%26ClassState%3D%26ChargeState%3D%26Education%3D%26School%3D%26Mobile%3D%26Address%3D%26Remark%3D%26Submit%3D%25CB%25D1%25CB%25F7&
+	 变量集合:mod=stuinfo&act=modify&ids=4&refer=%2fadmincp.aspx%3finSearch%3d1%26mod%3dstuinfo%26StuName%3d%26StuAge%3d%26StuGrade%3d%26StuClass%3d%26StuSex%3d%26TeacherID%3d%26ClassState%3d%26ChargeState%3d%26Education%3d%26School%3d%26Mobile%3d%26Address%3d%26Remark%3d%26Submit%3d%25CB%25D1%25CB%25F7&
+

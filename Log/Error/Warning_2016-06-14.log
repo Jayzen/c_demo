@@ -1,0 +1,4 @@
+2016-06-14 21:57:22 危险SQL: delete 来自:127.0.0.1
+	 连接IP:127.0.0.1 URL=/admincp.aspx?mod=user&act=delete&ids=5&refer=/admincp.aspx%3Fmod%3Duser&
+	 变量集合:mod=user&act=delete&ids=5&refer=%2fadmincp.aspx%3fmod%3duser&
+

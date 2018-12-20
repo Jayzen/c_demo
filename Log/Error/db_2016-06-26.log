@@ -1,0 +1,2 @@
+不能比较或排序 text、ntext 和 image 数据类型，除非使用 IS NULL 或 LIKE 运算符。2016-06-26 18:05:15: select * from (select ID,StuNO,StuKonwledgeID,AddTime,AddType,Detail,ROW_NUMBER() OVER( order by yx_stuknowledge.Detail desc) as RowNumber from yx_stuknowledge where 1=1) tbl  where RowNumber BETWEEN 21 and 40 Error: 不能比较或排序 text、ntext 和 image 数据类型，除非使用 IS NULL 或 LIKE 运算符。
+

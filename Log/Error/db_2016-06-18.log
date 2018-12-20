@@ -1,0 +1,18 @@
+列名 'TeacherID' 无效。2016-06-18 15:54:20: select count(*) as RsltCount from yx_stucomment where 1=1 and TeacherID = 3 Error: 列名 'TeacherID' 无效。
+
+列名 'TeacherID' 无效。2016-06-18 15:54:36: select count(*) as RsltCount from yx_stuknowledge where 1=1 and TeacherID = 3 Error: 列名 'TeacherID' 无效。
+
+列名 'TeacherID' 无效。2016-06-18 15:54:39: select count(*) as RsltCount from yx_stucomment where 1=1 and TeacherID = 3 Error: 列名 'TeacherID' 无效。
+
+列名 'TeacherID' 无效。2016-06-18 15:54:40: select count(*) as RsltCount from yx_stuknowledge where 1=1 and TeacherID = 3 Error: 列名 'TeacherID' 无效。
+
+列名 'TeacherID' 无效。2016-06-18 15:54:40: select count(*) as RsltCount from yx_stuknowledge where 1=1 and TeacherID = 3 Error: 列名 'TeacherID' 无效。
+
+关键字 'where' 附近有语法错误。2016-06-18 16:01:58: select top 10 ID,StuNO,StuName,StuAge,StuSex,StuGrade,StuClass,TeacherID,ClassState,ChargeState,Education,School,Mobile,Address,Remark from yx_stuinfo where StuName like '%毛润东(1606161)%' where 1=1  Error: 关键字 'where' 附近有语法错误。
+
+关键字 'where' 附近有语法错误。2016-06-18 16:02:03: select top 10 ID,StuNO,StuName,StuAge,StuSex,StuGrade,StuClass,TeacherID,ClassState,ChargeState,Education,School,Mobile,Address,Remark from yx_stuinfo where StuName like '%毛润东(1606161)%' where 1=1  Error: 关键字 'where' 附近有语法错误。
+
+关键字 'where' 附近有语法错误。2016-06-18 16:02:05: select top 10 ID,StuNO,StuName,StuAge,StuSex,StuGrade,StuClass,TeacherID,ClassState,ChargeState,Education,School,Mobile,Address,Remark from yx_stuinfo where StuName like '%毛润东(1606161)%' where 1=1  Error: 关键字 'where' 附近有语法错误。
+
+关键字 'where' 附近有语法错误。2016-06-18 16:02:34: select top 10 ID,StuNO,StuName,StuAge,StuSex,StuGrade,StuClass,TeacherID,ClassState,ChargeState,Education,School,Mobile,Address,Remark from yx_stuinfo where StuName like '%毛润东(1606161)%' where 1=1  Error: 关键字 'where' 附近有语法错误。
+

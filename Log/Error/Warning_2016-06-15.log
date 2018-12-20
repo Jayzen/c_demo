@@ -1,0 +1,8 @@
+2016-06-15 20:54:16 危险SQL: admincp.aspx?mod=chargerecord&act= 来自:127.0.0.1
+	 连接IP:127.0.0.1 URL=/admincp.aspx?mod=chargerecord&act=add&ids=
+	 变量集合:mod=chargerecord&act=add&ids=
+
+2016-06-15 20:54:34 危险SQL: admincp.aspx?mod=chargerecord&act= 来自:127.0.0.1
+	 连接IP:127.0.0.1 URL=/admincp.aspx?mod=chargerecord&act=add&ids=
+	 变量集合:mod=chargerecord&act=add&ids=
+
